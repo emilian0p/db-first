@@ -1,0 +1,17 @@
+Nome Database: Automobili Usate
+
+id - intero - SMALLINT - PRIMARY_KEY (NOTNULL - UNIQUE) - AUTO_INCREMENT
+prezzo - float - FLOAT(7,2) - NOTNULL
+anno - data - YEAR - NOTNULL
+modello - stringa - VARCHAR(30) - NOTNULL
+marca - stringa - VARCHAR(20) - NOTNULL
+cilindrata - intero - TINYINT - NULL
+chilometraggio - intero - SMALLINT - NOTNULL
+tipo_di_cambio - stringa - VARCHAR(20) - NULL
+carburante - stringa - VARCHAR (10) - NOTNULL
+potenza - intero - SMALLINT - NULL
+porte - intero - TINYINT -NOTNULL 
+descrizione - stringa - TEXT - NULL
+
+
+
